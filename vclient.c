@@ -281,7 +281,6 @@ int main (int argc, char **argv)
 
 	// Initialize global variables
 	vserver_ip_address = inet_addr (VSERVER_IP_ADDRESS);
-	// vclient_private_ip_address = inet_addr ("163.183.194.197");
 	vclient_private_ip_address = inet_addr ("192.168.10.129");
 	vclient_private_subnet_mask = inet_addr ("255.255.255.0");
 	vclient_private_udp_port_number = 10000;

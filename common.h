@@ -257,7 +257,7 @@ void xor_decrypt (apr_byte_t* buffer, int size);
  * Packet Header + Message Header + Message
  * -----------------------------------------------------------------------------
  */
-#define VSERVER_IP_ADDRESS					"198.154.198.156"
+#define VSERVER_IP_ADDRESS					"100.100.100.100"
 #define VSERVER_PORT_NUMBER					6113
 
 #define VPROTOCOL_MAGIC						0x484B
